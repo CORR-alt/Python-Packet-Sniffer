@@ -70,41 +70,23 @@ This project was developed for educational purposes and authorised network analy
 
 The Python application successfully captures live IPv4 network traffic and identifies source IP addresses, destination IP addresses and protocol numbers.
 
-
+![Packets Captured](screenshots/09-packet-capture-complete.png)
 
 ## 2. DNS Query Detection
 
 The packet sniffer extracts DNS query names, allowing DNS requests to be examined during network analysis.
-
+![DNS Analysis](screenshots/12-dns-analysis.png)
 
 ## 3. CSV Packet Export
 
 Captured packet metadata is exported to CSV, allowing further analysis using spreadsheets or Python.
 
-Project Evidence
 
-1. Live Packet Capture
+![CSV Packet exported](screenshots/14-csv-packet-export.png)
 
-The Python application successfully captures live IPv4 network traffic and identifies source IP addresses, destination IP addresses and protocol numbers.
-
-
-
-2. DNS Query Detection
-
-The packet sniffer extracts DNS query names, allowing DNS requests to be examined during network analysis.
-
-
-
-3. CSV Packet Export
-
-Captured packet metadata is exported to CSV, allowing further analysis using spreadsheets or Python.
-
-
-
-4. Wireshark PCAP Verification
-
-The exported PCAP file was successfully opened in Wireshark, confirming that captured packets can be examined using industry-standard network analysis tools.
 
 ## 4. Wireshark PCAP Verification
 
 The exported PCAP file was successfully opened in Wireshark, confirming that captured packets can be examined using industry-standard network analysis tools.
+
+![Wireshark Verification](screenshots/16-fixed.png)
